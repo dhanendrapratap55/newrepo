@@ -12,4 +12,7 @@ resource "azurerm_resource_group" "rg2" {
   location = "east us"
 }
 
-
+resource "azurerm_resource_group" "rg3" {
+  name     = "rg3"
+  location = "east us"
+}
